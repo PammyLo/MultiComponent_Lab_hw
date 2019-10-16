@@ -9,12 +9,14 @@
 
 <script>
 import ListItem from './ListItem.vue';
+import CountrySelect from './CountrySelect.vue';
 
 export default {
   name: 'countries-list',
   props: ['countriesprop'],
   components: {
-    "list-item": ListItem
+    "list-item": ListItem,
+    "country-select": CountrySelect
   }
 }
 </script>
